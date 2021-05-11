@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+
+}
+
+a {
+  color: #8f8f8f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.covid19 {
+  background-color: #fce38a;
+  padding-bottom: 0.2%;
+}
+
+.header-heading {
+  margin: 0;
+  padding-top: 2px;
+  color: #364f6b;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-links {
+  margin: 0 .5%;
+  text-decoration: none;
+  color: #2b2e4a;
+}
+
+.header-links:hover {
+  color: #fff;
+}
+
+.navbar {
+  background-color: #28527a;
+  width: 100%;
+}
+
+.navbar-brand {
+  font-family: 'Nothing You Could Do', cursive;
+  padding-left: 12px;
+}
+
+#title {
+  background-color: #a1cae2;
+  padding-left: 0;
+}
+#title h1{
+  color: #28527a;
+  font-size: 3rem;
+  font-family:"Farro", cursive;
+  padding-top: 3%;
+}
+
+
+.title-image {
+  width: 80%;
+  height: 80%;
+  margin-top: 7%;
+}
+
+.title-button {
+  margin: 4% 2% 7% 0;
+  text-align: center;
+}
+
+@media (max-width:1024px) {
+  #title {
+    text-align: center;
+  }
+}
+
+#features {
+  padding: 7% 3%;
+  text-align: center;
+}
+
+.features {
+  padding: 2%;
+}
+
+.feature-icon {
+  padding-bottom: 2%;
+}
+
+.feature-icon:hover {
+  color: blue;
+  padding-bottom: 4%;
+}
+.features-heading{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+}
+#offers{
+  padding: 7% 3%;
+  text-align: center;
+  background-color: #a1cae2;
+}
+.offer-heading{
+  padding-bottom: 2%;
+  color: #28527a;
+  font-size: 3rem;
+  font-family:"Farro", cursive;
+
+}
+
+.card:hover{
+  background-color: #28527a;
+  padding: 4%;
+}
+#footer{
+  text-align: center;
+  padding: 5% 3%;
+}
+.fab{
+  margin: 5% 3%;
+}
+.fab:hover{
+  color: #28527a;
+}
+.copyright{
+  margin-right: 7%;
+}
